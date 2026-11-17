@@ -1,0 +1,24 @@
+[project]
+name = "multiagent-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Iyed CHEBBI", email = "chebbiiyad@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.5.0",
+    "langchain-openrouter>=0.2.9",
+    "ormsgpack>=1.13.1",
+    "streamlit>=1.67.0",
+    "tavily>=1.1.0",
+]
+
+[project.scripts]
+multiagent-ai = "multiagent_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
