@@ -1,7 +1,7 @@
 [project]
-name = "multiagent-ai"
+name = "MultiAgent_Ai_Wedding_Planner_LangChain"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi-Agent AI Wedding Planner built with LangChain, OpenRouter, Tavily, and Streamlit"
 readme = "README.md"
 authors = [
     { name = "Iyed CHEBBI", email = "chebbiiyad@gmail.com" }
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-multiagent-ai = "multiagent_ai:main"
+multiagent-ai = "MultiAgent_Ai_Wedding_Planner_LangChain:main"
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
